@@ -1,8 +1,7 @@
 services: 
-
   BACTA-daemon:
     build: .
     image: bacta-web
-    container_name: bacta-web
+    container_name: bacta-web-${INSTANCE_ID}
     ports:
-     - "${PORT}:6500"
+     - "6500"  # Docker will automatically assign a random port
