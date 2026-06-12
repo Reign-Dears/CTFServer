@@ -7,4 +7,4 @@ RUN chmod +x /whisper_daemon.sh
 
 EXPOSE 6500 
 CMD ["/whisper_daemon.sh"]
-# need to get rid of the port and let it gfenerate its own port.
+# need to get rid of the port and let it generate its own port.
